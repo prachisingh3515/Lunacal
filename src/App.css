@@ -1,0 +1,53 @@
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    display: none;
+    
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #c3bdbd, #888888);
+    border-radius: 4px;
+    height: 30px; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  .horizontal-line {
+
+    border: none;
+    height: 2px;  
+    background-color: rgb(140, 134, 134);  
+    width: 80%;  
+    margin-top: 15px; 
+   margin-left: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1100px){
+  .res-comp1{
+    max-width: 45vw;
+  }
+ 
+  .comp1-header1, .comp1-header2, .comp1-header3 {
+    font-size: 12px;
+  }
+ .comp1-para{
+  font-size: 12px;
+ }
+ .res-comp2{
+  max-width: 45vw;
+ }
+.comp2-header{
+  max-width: 10vw;
+  margin-left: 2rem;
+}
+.comp2-para{
+  max-width: 10vw;
+  min-height: 8rem;
+}
+
+}
